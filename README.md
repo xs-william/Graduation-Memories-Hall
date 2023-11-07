@@ -1,4 +1,4 @@
-# Software-Architecture
+# Graduation Memories Hall
 
 此代码库用来记录我们开发这个项目的整个流程。
 
@@ -18,7 +18,7 @@
 
 ## 毕业回忆馆
 
-这是我们小组的 Github 网址 [https://github.com/hhazjXS/Software-Architecture](https://github.com/hhazjXS/Software-Architecture)
+这是我们小组的 Github 网址 [https://github.com/hhazjXS/Graduation-Memories-Hall](https://github.com/hhazjXS/Graduation-Memories-Hall)
 
 ### 概述
 
