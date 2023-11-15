@@ -6,7 +6,8 @@
 
 using namespace std;
 
-class MemoryMap : public MessageTheme
+class MemoryMap 
+	: public MessageTheme
 {
 private:
 	vector<MessageBox> MapBoxes;

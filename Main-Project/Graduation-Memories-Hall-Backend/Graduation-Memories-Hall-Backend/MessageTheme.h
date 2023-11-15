@@ -9,6 +9,8 @@ class MessageTheme
 private:
 	string Themes;
 public:
+	MessageTheme(){}
+	~MessageTheme(){}
 	virtual void AddBox();
 
 	virtual void DeleteBox();
