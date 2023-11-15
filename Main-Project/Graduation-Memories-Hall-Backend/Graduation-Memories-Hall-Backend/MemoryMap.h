@@ -2,13 +2,13 @@
 #include<iostream>
 #include<vector>
 #include"MessageBox.h"
+#include"MessageTheme.h"
 
 using namespace std;
 
-class MemoryMap
+class MemoryMap : public MessageTheme
 {
 private:
-	string Themes;
 	vector<MessageBox> MapBoxes;
 public:
 	MemoryMap() {

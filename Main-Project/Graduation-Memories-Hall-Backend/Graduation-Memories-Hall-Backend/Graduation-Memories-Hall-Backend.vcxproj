@@ -135,6 +135,7 @@
     <ClCompile Include="Message.cpp" />
     <ClCompile Include="MessageBox.cpp" />
     <ClCompile Include="MessageTheme.cpp" />
+    <ClCompile Include="ThemeManager.cpp" />
     <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +146,7 @@
     <ClInclude Include="Message.h" />
     <ClInclude Include="MessageBox.h" />
     <ClInclude Include="MessageTheme.h" />
+    <ClInclude Include="ThemeManager.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

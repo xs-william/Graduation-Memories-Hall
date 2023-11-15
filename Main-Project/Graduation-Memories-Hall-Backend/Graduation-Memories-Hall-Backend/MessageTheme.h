@@ -1,5 +1,6 @@
 #pragma once
 #include<iostream>
+#include"MessageBox.h"
 
 using namespace std;
 
@@ -7,12 +8,13 @@ class MessageTheme
 {
 private:
 	string Themes;
-
 public:
-	void AddThemes();
+	virtual void AddBox();
 
-	void DeleteThemes();
+	virtual void DeleteBox();
 
-	string GetThemes();
+	virtual MessageBox GetBox();
+
+	string GetTheme();
 };
 
