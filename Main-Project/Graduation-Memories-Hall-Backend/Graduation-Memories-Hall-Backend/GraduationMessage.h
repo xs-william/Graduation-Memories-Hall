@@ -8,6 +8,7 @@ using namespace std;
 class GraduationMessage
 {
 private:
+	string Themes;
 	vector<MessageBox> GraduationBox;
 public:
 	GraduationMessage() {

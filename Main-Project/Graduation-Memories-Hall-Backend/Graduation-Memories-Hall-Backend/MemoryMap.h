@@ -8,6 +8,7 @@ using namespace std;
 class MemoryMap
 {
 private:
+	string Themes;
 	vector<MessageBox> MapBoxes;
 public:
 	MemoryMap() {
@@ -15,7 +16,7 @@ public:
 	}
 	~MemoryMap() {}
 
-	void AddBox(Coordinate coordinate);
+	void AddBox(Coordinate coordinate,string university,string major);
 
 	void DeleteBox(Coordinate coordinate);
 
