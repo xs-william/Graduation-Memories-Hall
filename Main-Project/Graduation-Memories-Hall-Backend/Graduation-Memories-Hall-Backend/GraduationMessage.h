@@ -2,10 +2,11 @@
 #include<iostream>
 #include<vector>
 #include"MessageBox.h"
+#include"MessageTheme.h"
 
 using namespace std;
 
-class GraduationMessage
+class GraduationMessage : public MessageTheme
 {
 private:
 	vector<MessageBox> GraduationBox;

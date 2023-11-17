@@ -1,13 +1,17 @@
 #include "MessageTheme.h"
 
-void MessageTheme::AddThemes() {
+void MessageTheme::AddBox() {
 
 }
 
-void MessageTheme::DeleteThemes() {
+void MessageTheme::DeleteBox() {
 
 }
 
-string MessageTheme::GetThemes() {
+MessageBox MessageTheme::GetBox() {
 
+}
+
+string MessageTheme::GetTheme() {
+	return this->Themes;
 }

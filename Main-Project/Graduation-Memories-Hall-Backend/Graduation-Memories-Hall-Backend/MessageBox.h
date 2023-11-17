@@ -28,8 +28,11 @@ public:
 
 	~MessageBox() {}
 
-	void AddMessage();
-	void DeleteMessage();
-	Message GetMessage();
+	void AddMessage(string,string,bool);
+	void DeleteMessage(int);
+	Coordinate GetPosition();
+	string GetUniversity();
+	string GetMajor();
+	Message GetMessage(int);
 };
 
