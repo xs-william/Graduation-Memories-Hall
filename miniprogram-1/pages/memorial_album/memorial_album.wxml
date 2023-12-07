@@ -1,8 +1,0 @@
-<view class="container">
-  <button class="upload-button" bindtap="navigateToUpload">上传你的寄语</button>
-  <view wx:for="{{messages}}" wx:key="index" class="message-card">
-    <view class="user-name">{{item.user}} - {{item.time}}</view>
-    <image src="{{item.image}}" mode="aspectFit" class="uploaded-image"></image>
-    <view class="message-text">{{item.message}}</view>
-  </view>
-</view>

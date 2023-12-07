@@ -1,6 +1,0 @@
-<view class="container">
-  <input class="input" type="text" placeholder="输入你的名字" bindinput="onInputName"/>
-  <textarea class="textarea" placeholder="写下你的寄语" bindinput="onInputMessage"></textarea>
-  <button class="upload-button" bindtap="doUpload">上传照片</button>
-  <button class="submit-button" bindtap="submitMessage">提交寄语</button>
-</view>
