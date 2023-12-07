@@ -9,6 +9,8 @@
 
 这是我们小组的 Github 网址 [https://github.com/hhazjXS/Graduation-Memories-Hall](https://github.com/hhazjXS/Graduation-Memories-Hall)
 
+**（详细代码可在此网站查看）**
+
 ### 概述
 
     “毕业回忆馆”是一个集纪念、分享与回忆于一体的软件，旨在帮助用户保存和重温在学校时期的美好时光。用户可以创建时间胶囊、制作数字纪念册并在校园地图上标记重要的地点和回忆。
